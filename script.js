@@ -72,7 +72,8 @@ function syncDate() {
 
 // Country options data
 const countries = [
-    { value: "", label: "--None--" },
+    // { value: "", label: "--None--" },
+    { value: "LB", label: "Lebanon" },
     { value: "AF", label: "Afghanistan" },
     { value: "AX", label: "Aland Islands" },
     { value: "AL", label: "Albania" },
@@ -192,7 +193,7 @@ const countries = [
     { value: "KG", label: "Kyrgyzstan" },
     { value: "LA", label: "Lao People's Democratic Republic" },
     { value: "LV", label: "Latvia" },
-    { value: "LB", label: "Lebanon" },
+    // { value: "LB", label: "Lebanon" },
     { value: "LS", label: "Lesotho" },
     { value: "LR", label: "Liberia" },
     { value: "LY", label: "Libya" },
