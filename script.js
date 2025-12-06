@@ -725,6 +725,26 @@ function populateSelect(selectId, optionsData) {
     });
 }
 
+function mockData() {
+    try {
+        document.getElementById('first_name').value = 'Pierre';
+        document.getElementById('last_name').value = 'El-Khaleel';
+        document.getElementById('00Na3000001BRp7').value = 'Male';
+        document.getElementById('email').value = 'pierre@gmail.com.invalid';
+        document.getElementById('00Na3000001BSDJ').value = '+971-0000044';
+        document.getElementById('phone').value = '+971-10000044';
+        document.getElementById('country_code').value = 'AE';
+        document.getElementById('city').value = 'Dubai';
+        document.getElementById('00Na3000001EP61').value = 'Spring 2026';
+        document.getElementById('00Na3000001EOTM').value = 'BS, Computer Science';
+        document.getElementById('ui_date_picker').value = '2007-05-10';
+        return true;
+    }
+    catch (e) {
+        return false;
+    }
+}
+
 // Initialize page when DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Check if we should show thank you page or form
@@ -734,9 +754,8 @@ document.addEventListener('DOMContentLoaded', function() {
     populateSelect('country_code', countries);
     populateSelect('state_code', states);
 
-    // Add form submission handler to convert date format
-    const form = document.getElementById('leadForm');
-    if (form) {
-        form.addEventListener('submit', handleFormSubmit);
-    }
+    setTimeout(() => {
+        mockData();
+        syncDate();
+    }, 3000);
 });
