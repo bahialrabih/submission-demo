@@ -730,7 +730,7 @@ function mockData() {
         document.getElementById('first_name').value = 'Samir';
         document.getElementById('last_name').value = 'El-Khaleel';
         document.getElementById('00Na3000001BRp7').value = 'Male';
-        document.getElementById('email').value = 'pierre@gmail.com.invalid';
+        document.getElementById('email').value = 'info@salesforce.com';
         document.getElementById('00Na3000001BSDJ').value = '+971-0000034';
         document.getElementById('phone').value = '+971-10000034';
         document.getElementById('country_code').value = 'AE';
