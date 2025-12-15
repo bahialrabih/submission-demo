@@ -727,17 +727,17 @@ function populateSelect(selectId, optionsData) {
 
 function mockData() {
     try {
-        document.getElementById('first_name').value = 'Samir';
-        document.getElementById('last_name').value = 'El-Khaleel';
+        document.getElementById('first_name').value = 'Sami';
+        document.getElementById('last_name').value = 'Tamim';
         document.getElementById('00Na3000001BRp7').value = 'Male';
         document.getElementById('email').value = 'info@salesforce.com';
-        document.getElementById('00Na3000001BSDJ').value = '+971-0000034';
+        document.getElementById('00Na3000001BSDJ').value = '+971-0001054';
         document.getElementById('phone').value = '+971-10000034';
         document.getElementById('country_code').value = 'AE';
         document.getElementById('city').value = 'Dubai';
         document.getElementById('00Na3000001EP61').value = 'Spring 2026';
         document.getElementById('00Na3000001EOTM').value = 'BS, Computer Science';
-        document.getElementById('ui_date_picker').value = '2007-06-10';
+        document.getElementById('ui_date_picker').value = '2007-07-10';
         return true;
     }
     catch (e) {
